@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Работа в Новомете</title>
+
+	<link rel="stylesheet" href="../style.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+
+				<a href="./index.html">
+					<img src="../img/logo.png" alt="" class="logo">
+				</a>
+				
+
+				<nav class="nav">
+					<a href="./products.html" class="nav__link">Услуги</a>
+					<a href="./careers.html" class="nav__link">Карьера</a>
+				</nav>
+			</div>
+		</div>
+		
+	</header>
+	<!-- /Header -->
+
+	<!-- Bg career -->
+	<div class="bg-career">
+		<h1>
+			Карьера
+		</h1>
+	</div>
+	<!-- /Bg career -->
+
+	<!-- Vacancies -->
+	<div class="vacancies">
+		<div class="container">
+			<div class="vacancies__inner">
+				
+				<div class="block-vacancy"
+					data-title="Помощник HR-менеджера"
+					data-salary="50 000 ₽" 
+					data-location="Пермь" 
+					data-time="Полный день" 
+					data-duties="Подбирать персонал,Предлагать идеи,Взаимодействие с учебными заведениями" 
+					data-conditions="Комфортный офис,Гибкий график,Обучение за счет компании"
+				>
+					<h4 class="vacancy__name">
+						Помощник HR-менеджера
+					</h4>
+
+					
+				</div>
+
+				<div class="block-vacancy"
+					data-title="Backend-разработчик на Python" 
+					data-salary="150 000 ₽" 
+					data-location="Москва" 
+					data-time="Полный день" 
+					data-duties="Разработка серверной части приложений,Работа с базами данных,Интеграция с внешними сервисами"
+					data-conditions="Комфортный офис,Гибкий график,Обучение за счет компании"
+				>
+					<h4 class="vacancy__name">
+						Backend-разработчик на Python
+					</h4>
+				</div>
+
+				<div class="block-vacancy"
+					data-title="Инженер-конструктор" 
+					data-salary="90 000 ₽" 
+					data-location="Пермь" 
+					data-time="Полный день" 
+					data-duties="Проектирование конструкций,Разработка чертежей,Подбор материалов"
+					data-conditions="Комфортный офис,Гибкий график,Обучение за счет компании"
+				>
+					<h4 class="vacancy__name">
+						Инженер-конструктор
+					</h4>
+				</div>
+				<div class="block-vacancy"
+					data-title="Наладчик станков с ЧПУ" 
+					data-salary="55 000 ₽" 
+					data-location="Нижневартовск" 
+					data-time="Полный день" 
+					data-duties="Настройка станков с ЧПУ,Обеспечение точности обработки,Регулярное техническое обслуживание"
+					data-conditions="Комфортный офис,Гибкий график,Обучение за счет компании"
+				>
+					<h4 class="vacancy__name">
+						Наладчик станков с ЧПУ
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal Window -->
+
+	<div class="modal">
+		<div class="modal__inner">
+			<img src="../img/close.png" alt="" class="close__btn">
+			<h1 class="modal__title">Помощник HR-менеджера</h1>
+
+			<h3 class="salary">50 000 ₽</h3>
+
+			<div class="desc__vacancy">
+				<ul class="duty">
+					<h4 class="duty__title">Задачи: </h4>
+					<li class="duty__item">
+						Подбирать персонал</li>
+					<li class="duty__item">
+						Предлагать и реализовывать идеи по укреплению HR-бренда</li>
+					<li class="duty__item">
+						Взаимодействовать с учебными заведениями города
+					</li>
+				</ul>
+
+				<ul class="duty">
+					<h4 class="duty__title">Условия: </h4>
+					<li class="duty__item">
+						Подбирать персонал</li>
+					<li class="duty__item">
+						Предлагать и реализовывать идеи по укреплению HR-бренда</li>
+					<li class="duty__item">
+						Взаимодействовать с учебными заведениями города
+					</li>
+				</ul>
+			</div>
+
+			<button class="vacancy__btn">Отправить резюме</button>
+		</div>
+	</div>
+
+	<script src="../script.js"></script>
+</body>
+</html>
