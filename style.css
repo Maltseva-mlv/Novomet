@@ -24,6 +24,8 @@ body{
 .header__inner{
 	display: flex;
 	align-items: center;
+
+	position: relative;
 }
 .logo{
 	width: 255px;
@@ -49,7 +51,8 @@ body{
 /* Intro */
 .intro{
 	height: 600px;
-	background-image: url('./img/slider.jpg');
+	background: url('./img/slider.jpg') no-repeat center;
+	background-size: cover;
 }
 
 .intro__inner{
@@ -68,8 +71,11 @@ body{
 	text-align: center;
 }
 
+
+
 .intro__subtitle{
-	width: 700px;
+	max-width: 700px;
+	width: 100%;
 
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -103,7 +109,7 @@ body{
 }
 
 .services__block{
-	width: 25%;
+	flex: 25%;
 	height: 250px;
 
 	margin: 5px;
@@ -192,7 +198,8 @@ body{
 }
 
 .about__info{
-	width: 500px;
+	max-width: 500px;
+	width: 100%;
     font-family: 'Montserrat';
     font-size: 16px;
     line-height: 2;
@@ -643,3 +650,4 @@ body{
     font-size: 22px;
     margin-bottom: 20px;
 }
+
